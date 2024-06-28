@@ -1,5 +1,14 @@
 package com.design.creational.factory;
 
+/**
+ *
+ * Factory Method Design Pattern ile ilgili detaylı bir örnek yapalım.
+ * Factory Method, nesne oluşturma sorumluluğunu alt sınıflara devreden bir yaratıcı tasarım desenidir.
+ * Bu desen, bir arayüz veya soyut sınıf içerisinde tanımlanmış bir factory metodu kullanarak,
+ * nesne oluşturma sürecini soyutlar.
+ *
+ */
+
 interface Animal {
     void speak();
 }
