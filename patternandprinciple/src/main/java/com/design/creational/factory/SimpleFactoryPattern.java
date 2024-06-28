@@ -1,5 +1,14 @@
 package com.design.creational.factory;
 
+/**
+ *
+ * Simple Factory Design Pattern ile ilgili detaylı bir örnek yapalım.
+ * Simple Factory, nesne oluşturma sorumluluğunu merkezi bir sınıfta toplar ve bu sınıf,
+ * belirli kriterlere göre nesneleri oluşturur. Simple Factory Design Pattern genellikle
+ * bir statik metod kullanarak nesne oluşturma işlemini gerçekleştirir.
+ *
+ */
+
 interface Vehicle{
     void drive();
 }
