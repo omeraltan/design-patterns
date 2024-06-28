@@ -116,8 +116,6 @@ class Note8 implements Phone {
     }
 }
 
-
-
 class PhoneStore{
 
     public static void main(String[] args) {
