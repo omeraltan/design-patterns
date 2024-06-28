@@ -27,10 +27,10 @@ class Elephant implements Animal {
 
 abstract class AnimalFactory {
 
-    // Factory metodu
+    // Factory methodu
     public abstract Animal createAnimal();
 
-    // Bir şablon metot
+    // Bir şablon method
     public void makeAnimalSpeak() {
         Animal animal = createAnimal();
         animal.speak();
@@ -59,7 +59,7 @@ class ElephantFactory extends AnimalFactory {
 }
 
 
-public class FactoryMethodDesignPattern {
+public class FactoryMethodPattern {
 
     public static void main(String[] args) {
 
