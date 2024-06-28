@@ -5,7 +5,6 @@ public interface Phone {
     String getBattery();
     int getLength();
     int getWidth();
-
 }
 
 class S8 implements Phone {
