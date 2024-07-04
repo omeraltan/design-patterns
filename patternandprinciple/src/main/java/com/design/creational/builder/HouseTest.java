@@ -111,7 +111,7 @@ class ConstructionEngineer {
 
 
 
-public class BuilderTest {
+public class HouseTest {
 
     public static void main(String[] args) {
         HouseBuilder builder = new HouseBuilder();
